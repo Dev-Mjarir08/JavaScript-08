@@ -1,21 +1,17 @@
 let s_name="Jarir Multani";
 let s_id=9302;
-let sub1=80;
-let sub2=70;
-let sub3=90;
-let sub4=85;
-let sub5=95;    
-let total=sub1+sub2+sub3+sub4+sub5;
-let avg=total/5;
+let html_marks=80;
+let dsa_marks=93;
+let mq_bt=65;
+let total=html_marks+dsa_marks+mq_bt;
+let avg=total/3;
 
 
 console.log("Name: "+s_name);
 console.log("----------------Mark Sheet----------------");
-console.log("Subject 1: "+sub1);
-console.log("Subject 2: "+sub2);
-console.log("Subject 3: "+sub3);
-console.log("Subject 4: "+sub4);
-console.log("Subject 5: "+sub5);
+console.log("Subject 1: "+ html_marks);
+console.log("Subject 2: "+dsa_marks);
+console.log("Subject 3: "+mq_bt);
 console.log("-----------------------------------------");
 console.log("Total Marks: "+total);
 console.log("Average Marks: "+avg);

@@ -17,11 +17,11 @@ else if(principal>=500000 && time<2){
 else{
     rate = 6.5; // rate of interest
 }
-
+total_amount = principal + (principal * rate * time) / 100; // total amount after adding simple interest
 let simple_interest = (principal * rate * time) / 100; // formula for simple interest
 console.log("Principalamount: " + principal);
 console.log("Rate of Interest: " + rate + "%");
 console.log("Time Period: " + time + " years");
 console.log("------------------------------");
 console.log("Simple Interest: " + simple_interest);
-console.log("Total Amount: " + (principal + simple_interest));// total amount after adding simple interest
+console.log("Total Amount: " + total_amount);// total amount after adding simple interest

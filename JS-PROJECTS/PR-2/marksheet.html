@@ -27,13 +27,41 @@
                     </tr>
                         <tr>
                     <th>Student Name</th>
-                    <th id="s_name"></th>
+                    <th id="s_name" colspan="5"></th>
                     </tr>
+            </thead>
+            <thead>
                 <tr>
-                
                     <th>Subject</th>
                     <th>Marks Obtained</th>
                 </tr>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td id="html_marks"></td>
+                    </tr>
+                    <tr>
+                        <td>DSA</td>
+                        <td id="dsa_marks"></td>
+                    </tr>
+                    <tr>
+                        <td>MQ-BT</td>
+                        <td id="mq_bt"></td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td id="total"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>AVERAGE</td>
+                        <td id="avg"></td>
+                    </tr>
+                      <tr>
+                        <td>STATUS</td>
+                        <td>B+</td>
+                    </tr>
+                </tbody>
             </thead>
         
         <!-- Bootstrap JavaScript Libraries -->
@@ -51,6 +79,11 @@
         <script src="marksheet.js"></script>
         <script>
             document.getElementById("s_name").innerText = s_name;
+            document.getElementById("html_marks").innerText = html_marks;
+            document.getElementById("dsa_marks").innerText = dsa_marks;
+            document.getElementById("mq_bt").innerText = mq_bt; 
+            document.getElementById("total").innerText = total;
+            document.getElementById("avg").innerText = avg;
 
         </script>
     </body>
