@@ -9,9 +9,9 @@ let avg=total/3;
 
 console.log("Name: "+s_name);
 console.log("----------------Mark Sheet----------------");
-console.log("Subject 1: "+ html_marks);
-console.log("Subject 2: "+dsa_marks);
-console.log("Subject 3: "+mq_bt);
+console.log("HTML & CSS: "+ html_marks);
+console.log("DSA : "+dsa_marks);
+console.log("MQ-BT: "+mq_bt);
 console.log("-----------------------------------------");
 console.log("Total Marks: "+total);
 console.log("Average Marks: "+avg);
