@@ -1,10 +1,14 @@
-//using for loop
-for (let i = 1; i <= 10; i++) {
-    console.log(i);
-    }
-//using for loop in array
-let arr = [10, 20, 30, 40, 50];
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+// while loop 
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+let str = " ";
+let i = 1;
+while (i <= 5) {
+    str = str + i + " ";
+    console.log(str);
+    i++;
 }
-console.log("-----------------------------");
+console.log("--------------------------------------------------");
