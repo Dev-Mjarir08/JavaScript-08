@@ -150,17 +150,7 @@ Examples of patterns included:
     
      <img width="500" height="220" alt="image" src="https://github.com/user-attachments/assets/29231a38-7a1c-4c11-a415-8e2fdee42730" />
 
-  
-<h2>5. Multipliaction Table </h2>
 
-
-   - Displays the multiplication table of any entered number
-     
-
-      <h4>Output</h4>
-
-
-      <img width="500" height="528" alt="image" src="https://github.com/user-attachments/assets/9470c16a-bc21-4b71-981b-99005ad77163" />
 
 
   
