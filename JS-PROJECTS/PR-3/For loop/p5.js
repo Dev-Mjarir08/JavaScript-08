@@ -3,11 +3,11 @@
 // 3 2 1
 // 2 1
 // 1
-let str = "";
+
 for (let i = 5; i >= 1; i--) {
+    let str = "";
     for (let j = i; j >= 1; j--) {
         str+= `${j} `
     }
     console.log(str);
-    str = "";
 }   

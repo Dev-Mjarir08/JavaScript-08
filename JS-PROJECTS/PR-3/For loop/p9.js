@@ -5,8 +5,9 @@
 //         * 
 
 let n = 5;
-let str = "";
+
 for (let i = n; i >= 1; i--) {
+    let str = "";
     for (let k = 1; k <= n - i; k++) {
         str+= "  "
     }

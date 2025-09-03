@@ -4,12 +4,12 @@
 // 5 4 
 // 5 
 
-let str = "";
-n=5
+
+let n=5
 for (let i = n; i >= 1; i--) {
+    let str = "";
     for (let j = n; j >=n - i + 1; j--) {
         str+= `${j} `
     }
     console.log(str);
-    str = "";
 }
