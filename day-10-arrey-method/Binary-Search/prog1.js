@@ -6,7 +6,7 @@ let  index = -1;
 
 function binarySearch(arr , target , start , end){
     while(start <= end){
-        let mid = start + end / 2;        
+        let mid = (start+ end)/ 2;        
         if(arr[mid] === target){
             return mid;
         }
@@ -26,9 +26,6 @@ if(index != -1)
 
 if(index == -1)
     console.log("Element not found in array");
-
-
-
 
 
 
