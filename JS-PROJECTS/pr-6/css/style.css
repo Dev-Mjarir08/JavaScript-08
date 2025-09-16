@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+background: linear-gradient(109deg, rgb(164, 46, 46) 0%, rgb(244, 179, 179) 69%, rgb(164, 64, 46) 100%);
+}
+
+.nav-item {
+       margin-left:20px ;
+}
+.nav-item .nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn
+{
+    font-size: 16px;
+} 
+/* Custom carousel control buttons */
+.custom-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s, transform 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.carousel-control-prev.custom-btn {
+  left: 20px;
+}
+
+.carousel-control-next.custom-btn {
+  right: 20px;
+}
+
+.custom-btn .icon {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.custom-btn .icon:hover {
+  color: #ffffff;
+}
+
+.custom-btn:hover {
+
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
