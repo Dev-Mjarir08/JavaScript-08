@@ -60,4 +60,12 @@ function handleLogin() {
   }
 }
 
-
+function clearInputs(loginForm , signupForm) {
+  document.querySelectorAll(`#${loginForm} input`).forEach(input => {
+    input.value = "";
+  });
+   document.querySelectorAll(`#${signupForm} input`).forEach(input => {
+    input.value = "";
+  });
+  
+}
