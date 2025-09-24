@@ -1,0 +1,46 @@
+    body {
+      background-color: #33A4DA;
+    }
+
+    .box1 {
+      height: 700px;
+      background-image: url(./kari-shea-tcgMBsW4zlU-unsplash.jpg);
+      /* sample background */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .form-container {
+      height: 700px;
+      background-color: aliceblue;
+    }
+
+    /* Slider container */
+    .slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      height: 700px;
+    }
+
+    /* Each slide */
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transition: transform 0.6s cubic-bezier(.25, .8, .25, 1);
+      transform: translateX(100%);
+    }
+
+    .slide.active {
+      transform: translateX(0);
+      z-index: 2;
+    }
+
+    .slide.left {
+      transform: translateX(-100%);
+    }
+
+    .slide.right {
+      transform: translateX(100%);
+    }
