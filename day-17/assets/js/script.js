@@ -7,6 +7,10 @@ let slips = JSON.parse(localStorage.getItem('slips')) || [];
 let editId = null;
 
 const generateSlip = () => {
+  if (!empName.value.trim() || !empSalary.value.trim()) {
+    alert("Please enter both fields!");
+    return;
+  }
 
   let basic = parseFloat(empSalary.value);
 
