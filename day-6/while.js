@@ -1,9 +1,4 @@
-//print 1 to 20 numbers using while loop
-let i = 1;
-while (i <= 20) {
-    console.log(i);
-    i++;
-}
+
 console.log("--------------");
 //print 20 to 1 numbers using while loop
 let j = 20;
