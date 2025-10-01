@@ -9,6 +9,12 @@ let x=50, y=30 ;
 console.log("Subtraction of x-y =" + (x-y));
 
 
+let p=50, u=30 ;
+
+//Subtraction of two numbers
+console.log("mass =" + (p - u + u));
+
+
 //Division of two numbers
 console.log("Divison of x/y =" + (x/y));
 
