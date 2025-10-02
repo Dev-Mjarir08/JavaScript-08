@@ -41,7 +41,7 @@ const displayData = () => {
             <td>${email}</td>
             <td>${password}</td>
             <td>
-                <button onclick="  " class="btn btn-danger" >Delete</button>
+                <button onclick="deleteData()" class="btn btn-danger" >Delete</button>
                 <button onclick="" class="btn btn-warning">edit</button>
             </td>
         `
