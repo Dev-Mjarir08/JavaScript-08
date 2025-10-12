@@ -1,0 +1,16 @@
+<script>
+
+    let obj1 = {
+        name: "Dhaval",
+        age: 29,
+    }
+    let obj2 = Object.create(obj1);
+
+    obj2.getMessage = function () {
+        return Your name is ${this.name}
+    }
+
+
+    console.log(obj2.getMessage());
+
+</script>
